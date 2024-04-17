@@ -6,7 +6,7 @@ let numInt4 = parseInt(numInt1) + parseInt(numInt2) + parseInt(numInt3);
 
 numInt1 = parseInt(numInt1);
 
-console.log(`
+console.log(`RESULTADO: 
     ${numInt1 + 25},
     ${numInt2 * 3 },
     ${numInt3 * 0.12},

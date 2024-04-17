@@ -1,14 +1,14 @@
 const prompt = require('prompt-sync')()
 
-let numero = prompt("digite o codigo do produto: ");
+let num = parseInt(prompt("digite o codigo do produto: "));
 //Gambiarra talvez?
-if(numero >= 10 && numero <= 20 ){
-    numero = 10;
-}else if((numero >= 5 && numero <= 6)||(numero >= 25 && numero <= 50)){
-    numero = 5;
+if ( num >= 10 && num <= 20 ){
+ num = 10;
+}else if(( num >= 5 && num <= 6)|| ( num >= 25 && num <= 50)){
+ num = 5;
 }
 
-switch (parseInt(numero)) {
+switch (num) {
     case 1:
          console.log("produto pertencente a regiao SUL ");
         break;
